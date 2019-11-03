@@ -1,4 +1,5 @@
 const crearMensaje = (nombre, mensaje) => {
+    console.log('Se ha creado el mensaje', nombre, mensaje);
     return {
         nombre,
         mensaje,
